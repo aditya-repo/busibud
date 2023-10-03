@@ -1,1 +1,214 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .hero-image img {
+  padding: 16px;
+}
+
+hr.hr {
+  margin-top: 0;
+}
+
+div.one-main {
+  padding: 16px;
+  margin-top: 72px;
+  font-size: 120%;
+}
+div.one-main h1 {
+  line-height: 3.5rem;
+  font-size: 44px;
+  font-weight: bolder;
+  color: #000;
+}
+div.one-main p {
+  margin-top: 12px;
+}
+div.one-main button {
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 45px;
+  padding: 20px 65px;
+  font-size: 26px;
+  position: relative;
+  background-color: #1492E6;
+  border: none;
+}
+
+.one-svg {
+  margin-top: -10%;
+}
+
+section.two {
+  background-color: #f5f5f5;
+}
+section.two div.container {
+  padding: 20px 0;
+}
+section.two div.container h1 {
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+section.two div.container div.row div.col-md-4 {
+  margin-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+section.two div.container div.row div.col-md-4 div.card {
+  background-color: #fff;
+  padding: 16px 20px;
+  border-radius: 25px;
+  border: none;
+}
+section.two div.container div.row div.col-md-4 div.card :first-child {
+  text-align: center;
+}
+
+section.three {
+  margin-bottom: 2rem;
+}
+section.three div.mark1 {
+  background-color: #f5f5f5;
+}
+section.three div.mark1 div.container {
+  padding-top: 5rem;
+}
+section.three div.mark1 div.container h1 {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 0;
+  padding: 5rem 0;
+}
+section.three div.wave {
+  background-color: #fff;
+}
+section.three div.container {
+  margin-top: -90px;
+}
+section.three div.container div.row div.col-md-4 div.service {
+  padding: 0.75rem;
+}
+section.three div.container div.row div.col-md-4 div.service div {
+  display: flex;
+  justify-content: start;
+}
+section.three div.container div.row div.col-md-4 div.service h4 {
+  padding-top: 2.5rem;
+  padding-bottom: 1.25rem;
+}
+
+section.four {
+  margin-top: 20px;
+}
+section.four h1 {
+  text-align: center;
+  padding: 20px 4px;
+}
+section.four div.container div.row div.col-md-6 {
+  margin-bottom: 16px;
+}
+section.four div.container div.row div.col-md-6 div.expertise {
+  padding: 16px 12px;
+}
+section.four div.container div.row div.col-md-6 div.expertise div.main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+section.four div.container div.row div.col-md-6 div.expertise div.main img {
+  width: 100px;
+  height: auto;
+  padding-right: 24px;
+}
+section.four div.container div.row div.col-md-6 div.expertise button {
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 45px;
+  padding: 20px 65px;
+  font-size: 26px;
+  position: relative;
+  background-color: #1492E6;
+  border: none;
+}
+
+section.six {
+  margin: 20px 0;
+  margin-top: 60px;
+  padding-bottom: 48px;
+}
+section.six h1 {
+  text-align: center;
+  padding: 20px 8px;
+  padding-bottom: 48px;
+}
+section.six div.container div.row {
+  margin-bottom: 20px;
+}
+section.six div.container div.row div.col-md-4 div {
+  padding: 12px 12px;
+}
+section.six div.container div.row div.col-md-4 div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: auto;
+}
+
+footer {
+  color: #fff;
+  padding-top: 12px;
+  background-color: #252525;
+}
+footer div.main div.company-name h2 {
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+footer div.main div.company-name hr {
+  color: #fff;
+}
+footer div.main div.row div.col-md-4 div.bottom-nav {
+  padding: 12px 0;
+}
+footer div.main div.row div.col-md-4 div.bottom-nav form input {
+  margin-right: -4px;
+  outline: none;
+  padding-left: 12px;
+}
+footer div.main div.row div.col-md-4 div.bottom-nav form button {
+  border: none;
+  background-color: #1492E6;
+  color: #fff;
+  padding: 2px 8px;
+}
+footer div.main div.row div.col-md-3 .important-link {
+  padding: 0 16px;
+}
+footer div.main div.row div.col-md-3 .important-link p {
+  margin-bottom: 0;
+}
+footer div.main div.row div.col-md-3 .important-link ul {
+  padding: 12px 0;
+}
+footer div.main div.row div.col-md-3 .important-link ul li {
+  list-style: none;
+}
+footer div.main div.row div.col-md-3 .important-link ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+footer div.main div.row div.col-md-2 div.address p {
+  margin-bottom: 0;
+}
+footer div.footer-rights {
+  text-align: center;
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #000;
+}
+footer div.footer-rights p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */

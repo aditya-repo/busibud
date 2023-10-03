@@ -1,0 +1,242 @@
+@import 'template';
+
+
+$white: #fff;
+$grey: #f5f5f5;
+$blue: #1492E6;
+$black: #000;
+$l-black: #252525;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    .hero-image img{
+        padding: 16px;
+    }
+}
+
+hr.hr{
+    margin-top: 0;
+}
+
+div.one-main{
+    padding: 16px;
+    margin-top: 72px;
+    font-size: 120%;
+
+    h1{
+        line-height: 3.5rem;
+        font-size: 44px;
+        font-weight: bolder;
+        color: $black;
+    }
+    p{
+        margin-top: 12px;
+    }
+    button{
+        @include blue-button;
+    }
+}
+
+.one-svg{
+    margin-top: -10%;
+}
+
+section.two{
+    background-color: $grey;
+    div.container{
+        padding: 20px 0;
+
+        h1{
+            padding: 20px 0;
+            text-align: center;
+            padding-bottom: 4rem;
+        }
+        div.row div.col-md-4{
+            margin-bottom: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            div.card{
+                background-color: $white;
+                padding: 16px 20px;
+                border-radius: 25px;
+                border: none;
+
+                :first-child{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+section.three{
+    margin-bottom: 2rem;
+    div.mark1{
+        background-color: $grey;
+        div.container{
+            padding-top: 5rem;
+            
+            h1{
+                text-align: center;
+                padding: 2rem 0;
+                margin-bottom: 0;
+                padding: 5rem 0;
+            }
+        }
+    }
+
+    div.wave{
+        background-color: $white;
+    }
+
+    div.container{
+        margin-top: -90px;
+        div.row div.col-md-4 div.service{
+            padding: 0.75rem;
+            div{
+                display: flex;
+                justify-content: start;
+            }
+            h4{
+                padding-top: 2.5rem;
+                padding-bottom: 1.25rem;
+            }
+        }
+    }
+    
+}
+
+section.four{
+    margin-top: 20px;
+    h1{
+        text-align: center;
+        padding: 20px 4px;
+    }
+    div.container div.row div.col-md-6{
+        margin-bottom: 16px;
+        div.expertise{
+            padding: 16px 12px;
+
+            div.main{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+
+                img{
+                    width: 100px;
+                    height: auto;
+                    padding-right: 24px;
+                }
+            }
+
+            button{
+                @include blue-button;
+            }
+        }
+    }
+}
+
+section.six{
+    margin: 20px 0;
+    margin-top: 60px;
+    padding-bottom: 48px;
+
+    h1{
+        text-align: center;
+        padding: 20px 8px;
+        padding-bottom: 48px;
+    }
+
+    div.container div.row{
+        margin-bottom: 20px;
+
+        div.col-md-4 div{
+            padding: 12px 12px;
+
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120px;
+                width: auto;
+            }
+        }
+    }
+}
+
+footer{
+    color: $white;
+    padding-top: 12px;
+    background-color: $l-black;
+    div.main {
+        div.company-name{
+            h2{
+                padding: 12px 0;
+                margin-bottom: 0;
+            }
+            hr{
+                color: $white;
+            }
+        }
+
+        div.row{
+            div.col-md-4 div.bottom-nav{
+                padding: 12px 0;
+
+                form{
+                    input{
+                        margin-right: -4px;
+                        outline: none;
+                        padding-left: 12px;
+                    }
+
+                    button{
+                        border: none;
+                        background-color: #1492E6;
+                        color: #fff;
+                        padding: 2px 8px;
+                    }
+                }
+            }
+
+            div.col-md-3 .important-link{
+                padding: 0 16px;
+                p{
+                    margin-bottom: 0;
+                }
+                ul{
+                    padding: 12px 0;
+                    li{
+                        list-style: none;
+                        a{
+                            color: $grey;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            div.col-md-2 div.address p{
+                margin-bottom: 0;
+            }
+
+        }
+    }
+
+    div.footer-rights{
+        text-align: center;
+        margin-top: 16px;
+        padding: 12px;
+        background-color: $black;
+
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
