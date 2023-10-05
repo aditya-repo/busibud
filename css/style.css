@@ -211,4 +211,26 @@ footer div.footer-rights {
 }
 footer div.footer-rights p {
   margin-bottom: 0;
+}
+
+.carousel {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(33.3333333333% - 18px);
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel {
+    grid-auto-columns: calc(50% - 24px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel {
+    grid-auto-columns: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

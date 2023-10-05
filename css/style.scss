@@ -240,3 +240,27 @@ footer{
         }
     }
 }
+
+
+
+.carousel{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% /3) - 18px);
+    column-gap: 10px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width:1200px) {
+    .carousel{
+        grid-auto-columns: calc((100% /2) - 24px);
+    }
+}
+@media screen and (max-width:768px) {
+    .carousel{
+        grid-auto-columns: 100%;
+    }
+}
